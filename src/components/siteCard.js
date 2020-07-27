@@ -83,22 +83,25 @@ function SiteCard(props) {
 
   const [liveStatus, setLiveStatus] = useState(null);
 
-  let url = props.url + 'wp-json'
+  
 
   const [temp, setTemp] = useState(0)
 
-  useEffect(() =>{
-    setInterval(() =>{
-      setTemp((prevTemp)=>prevTemp +1)
-    }, 2000)
-  }, [])
+  let url = props.url + 'wp-json'
 
   useEffect(() => {
-    fetch(url)
-    .then(response=>response.ok)
-    .then(data =>setLiveStatus(data))
-  }, temp)
-    
+    const interval = setInterval(() => {
+      console.log('This will run every second!');
+      fetch(url)
+      .then(response=>response.ok)
+      .then(data =>setLiveStatus(data))
+    }, 1000);
+    return () => clearInterval(interval);
+  });
+
+
+
+  
  
 
 
