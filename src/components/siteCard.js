@@ -89,7 +89,7 @@ function SiteCard(props) {
     fetch(url)
     .then(response=>response.ok)
     .then(data =>setLiveStatus(data))
-  }, [])
+  })
     
  
 
