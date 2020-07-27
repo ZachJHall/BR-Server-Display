@@ -97,7 +97,7 @@ function SiteCard(props) {
       .then(data =>setLiveStatus(data))
     }, 1000);
     return () => clearInterval(interval);
-  });
+  }, []);
 
 
 
