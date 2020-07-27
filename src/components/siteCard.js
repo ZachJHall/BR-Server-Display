@@ -92,11 +92,12 @@ function SiteCard(props) {
       setTemp((prevTemp)=>prevTemp +1)
     }, 2000)
   }, [])
+
   useEffect(() => {
     fetch(url)
     .then(response=>response.ok)
     .then(data =>setLiveStatus(data))
-  }, [temp])
+  }, temp)
     
  
 
