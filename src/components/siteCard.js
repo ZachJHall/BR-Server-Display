@@ -85,11 +85,18 @@ function SiteCard(props) {
 
   let url = props.url + 'wp-json'
 
+  const [temp, setTemp] = useState(0)
+
+  useEffect(() =>{
+    setInterval(() =>{
+      setTemp((prevTemp)=>prevTemp +1)
+    }, 2000)
+  }, [])
   useEffect(() => {
     fetch(url)
     .then(response=>response.ok)
     .then(data =>setLiveStatus(data))
-  })
+  }, [temp])
     
  
 
