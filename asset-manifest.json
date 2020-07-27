@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/BR-Server-Status-2/static/css/main.4963c6f4.chunk.css",
-    "main.js": "/BR-Server-Status-2/static/js/main.c40480b4.chunk.js",
-    "main.js.map": "/BR-Server-Status-2/static/js/main.c40480b4.chunk.js.map",
-    "runtime-main.js": "/BR-Server-Status-2/static/js/runtime-main.2e4e7550.js",
-    "runtime-main.js.map": "/BR-Server-Status-2/static/js/runtime-main.2e4e7550.js.map",
-    "static/js/2.0473c21a.chunk.js": "/BR-Server-Status-2/static/js/2.0473c21a.chunk.js",
-    "static/js/2.0473c21a.chunk.js.map": "/BR-Server-Status-2/static/js/2.0473c21a.chunk.js.map",
-    "index.html": "/BR-Server-Status-2/index.html",
-    "precache-manifest.bc0145aa14d3816083f7b4ef08e53a7c.js": "/BR-Server-Status-2/precache-manifest.bc0145aa14d3816083f7b4ef08e53a7c.js",
-    "service-worker.js": "/BR-Server-Status-2/service-worker.js",
-    "static/css/main.4963c6f4.chunk.css.map": "/BR-Server-Status-2/static/css/main.4963c6f4.chunk.css.map",
-    "static/js/2.0473c21a.chunk.js.LICENSE.txt": "/BR-Server-Status-2/static/js/2.0473c21a.chunk.js.LICENSE.txt",
-    "static/media/BR_LOGO_SupernovaGold.svg": "/BR-Server-Status-2/static/media/BR_LOGO_SupernovaGold.af0947e9.svg"
+    "main.css": "/BR-Server-Display/static/css/main.4963c6f4.chunk.css",
+    "main.js": "/BR-Server-Display/static/js/main.55077856.chunk.js",
+    "main.js.map": "/BR-Server-Display/static/js/main.55077856.chunk.js.map",
+    "runtime-main.js": "/BR-Server-Display/static/js/runtime-main.ce4d2405.js",
+    "runtime-main.js.map": "/BR-Server-Display/static/js/runtime-main.ce4d2405.js.map",
+    "static/js/2.b9b6629d.chunk.js": "/BR-Server-Display/static/js/2.b9b6629d.chunk.js",
+    "static/js/2.b9b6629d.chunk.js.map": "/BR-Server-Display/static/js/2.b9b6629d.chunk.js.map",
+    "index.html": "/BR-Server-Display/index.html",
+    "precache-manifest.7f7c9af0981e9ce883b01787ebaeb944.js": "/BR-Server-Display/precache-manifest.7f7c9af0981e9ce883b01787ebaeb944.js",
+    "service-worker.js": "/BR-Server-Display/service-worker.js",
+    "static/css/main.4963c6f4.chunk.css.map": "/BR-Server-Display/static/css/main.4963c6f4.chunk.css.map",
+    "static/js/2.b9b6629d.chunk.js.LICENSE.txt": "/BR-Server-Display/static/js/2.b9b6629d.chunk.js.LICENSE.txt",
+    "static/media/BR_LOGO_SupernovaGold.svg": "/BR-Server-Display/static/media/BR_LOGO_SupernovaGold.af0947e9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e4e7550.js",
-    "static/js/2.0473c21a.chunk.js",
+    "static/js/runtime-main.ce4d2405.js",
+    "static/js/2.b9b6629d.chunk.js",
     "static/css/main.4963c6f4.chunk.css",
-    "static/js/main.c40480b4.chunk.js"
+    "static/js/main.55077856.chunk.js"
   ]
 }
