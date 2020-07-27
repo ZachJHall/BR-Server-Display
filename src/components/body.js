@@ -17,7 +17,7 @@ function Body() {
     <BodyDiv>
       <SiteCard company = "Knights Basketball Academy"  url="https://knightsbasketballacademy.com/" />
       <SiteCard company = "GreenSide LawnCare"  url="https://www.greensidelawncare.com/" />
-      <SiteCard company = "Integrated Openings"  url="cardinaldoorandhardware.info" />
+      <SiteCard company = "Integrated Openings"  url="https://www.cardinaldoorandhardware.info" />
 
     </BodyDiv>
   )
